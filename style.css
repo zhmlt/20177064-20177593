@@ -1,0 +1,42 @@
+
+@charset "UTF-8";
+body{
+	background-image: url(image/壁纸。7.jpg);
+    background-size:100%;
+    background-attachment:fixd;
+    
+}
+p{
+	font-size:20px;
+	font-family:黑体,楷体,华文行楷;
+	color:#008B8B;
+}
+.Div{
+	background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.node {
+    cursor: auto;
+}
+
+.node rect {
+    fill: #0073aa;
+    stroke: #0073aa;
+    stroke-width: 5px;
+}
+
+
+.node text {
+    font: 12px "黑体", sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: rgb(0, 0, 159);
+    stroke-width: 2px;
+}
+//光标移动//
+.menu_text:hover{
+	cursor:pointer;
+}
